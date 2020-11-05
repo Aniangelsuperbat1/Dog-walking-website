@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/e62df2fbf5_dog\ tales.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  outline-style: none;
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.4s;
+}
+
+.navbar ul li a.listitem,
+.navbar ul li a:hover {
+  background: black;
+  border-radius: 2px;
+}
+
+.header {
+  font-size: 50px;
+  text-align: center;
+  font-style: oblique;
+  text-shadow: -15px -15px 2px rgba(150, 150, 150, 1);
+}
+
+.background .middle {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+}
+
+.middle h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  width: 900px;
+  text-align: initial;
+}

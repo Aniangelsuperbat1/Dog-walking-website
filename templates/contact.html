@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+           <li><a class = listitem href="/">Home</a></li>
+           <li><a href="about">About</a></li>
+           <li><a href="contact">Contact</a></li>
+           <li><a href="services">Services</a></li>
+        </ul>
+    </div>
+    <div class="form-container">
+        <form action="contact" method="POST">
+            <h1>Contact me!</h1>
+            <div class="form-inner">
+                <div class="input-holder">
+                    <input type="text" class="input-text" required>
+                    <span class="label">Full Name</span>
+                </div>
+                <div class="input-holder">
+                    <input type="text" class="input-text" required>
+                    <span class="label">Email</span>
+                </div>
+                <div class="input-holder">
+                    <textarea required></textarea>
+                    <span class="label">Message</span>
+                </div>
+                <button>submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

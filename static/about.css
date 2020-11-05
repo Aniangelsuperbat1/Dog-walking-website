@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: url(./images/dog-647528_1920.jpg);
+  background-position: 0 1000px;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.4s;
+}
+
+.navbar ul li a.listitem,
+.navbar ul li a:hover {
+  background: black;
+  border-radius: 2px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: black;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.image {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+p {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 5rem;
+  margin-bottom: 5rem;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  padding: 2.7rem 7.5rem;
+  background: black;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  transition: background 0.5s;
+}
+
+.button {
+  background: #dadada;
+}
