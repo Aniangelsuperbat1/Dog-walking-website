@@ -17,21 +17,22 @@
     </div>
     <div class="form-container">
         <form action="contact" method="POST">
+            {% csrf_token %}
             <h1>Contact me!</h1>
             <div class="form-inner">
                 <div class="input-holder">
-                    <input type="text" class="input-text" required>
+                    <input type="text" class="input-text" id = "name" name = "name" required>
                     <span class="label">Full Name</span>
                 </div>
                 <div class="input-holder">
-                    <input type="text" class="input-text" required>
+                    <input type="email" class="input-text" id = "email" name = "email" required>
                     <span class="label">Email</span>
                 </div>
                 <div class="input-holder">
-                    <textarea required></textarea>
+                    <textarea required id = "desc" name= "desc"></textarea>
                     <span class="label">Message</span>
                 </div>
-                <button>submit</button>
+                <button type= "submit">submit</button>
             </div>
         </form>
     </div>
