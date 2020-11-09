@@ -17,10 +17,11 @@ def contact(request):
     if request.method == "POST":
         name = request.POST["name"]
         email = request.POST["email"]
+        phone = request.POST["phone"]
         desc = request.POST["desc"]
         print(name, email, desc)
 
-        data = Contact(name=name, email=email, desc=desc)
+        data = Contact(name=name, email=email, phone=phone, desc=desc)
         data.save()
 
     return render(request, "contact.html")
